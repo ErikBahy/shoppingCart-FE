@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shoppingcart-dev-115633-authRole",
+      "UnauthRoleArn": "arn:aws:iam::875637363269:role/amplify-shoppingcart-dev-115633-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::875637363269:role/amplify-shoppingcart-dev-115633-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-shoppingcart-dev-115633-deployment",
+      "UnauthRoleName": "amplify-shoppingcart-dev-115633-unauthRole",
+      "StackName": "amplify-shoppingcart-dev-115633",
+      "StackId": "arn:aws:cloudformation:eu-central-1:875637363269:stack/amplify-shoppingcart-dev-115633/e2153a40-1e12-11ed-86ab-02bcbd95dc2c",
+      "AmplifyAppId": "d2c03xc9baozop"
+    },
+    "categories": {
+      "auth": {
+        "shoppingcart4fd9c076": {}
+      }
+    }
+  }
+}
