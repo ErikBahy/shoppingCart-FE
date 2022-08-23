@@ -50,7 +50,7 @@ function ProductProvider(props) {
       },
     };
     await axios.post(
-      `https://hog7l2tne1.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart/${localStorage.getItem(
+      `https://rx0arioz5j.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart/${localStorage.getItem(
         "userId"
       )}`,
       productId,
@@ -75,7 +75,7 @@ function ProductProvider(props) {
       },
     };
     await axios.post(
-      `https://hog7l2tne1.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart/${localStorage.getItem(
+      `https://rx0arioz5j.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart/${localStorage.getItem(
         "userId"
       )}`,
       { _id },
@@ -117,7 +117,7 @@ function ProductProvider(props) {
         Authorization: localStorage.getItem("userToken"),
       },
     };
-    debugger;
+    
     await axios.delete(
       "https://hog7l2tne1.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart",
       requestInfo

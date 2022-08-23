@@ -18,11 +18,11 @@ export const productListRequest = async () => {
   console.log(user);
   const requestInfo = {
     headers: {
-      Authorization: localStorage.getItem("userToken"),
+      Authorization: token,
     },
   };
   const res = await axios.get(
-    "https://hog7l2tne1.execute-api.eu-central-1.amazonaws.com/dev/products",
+    "https://rx0arioz5j.execute-api.eu-central-1.amazonaws.com/dev/products",
     requestInfo
   );
   const storeProducts = res.data;
@@ -46,8 +46,9 @@ export const shoppingCartRequest = async () => {
       Authorization: localStorage.getItem("userToken"),
     },
   };
+  console.log(requestInfo)
   const res = await axios.get(
-    `https://hog7l2tne1.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart/${userId}`,
+    `https://rx0arioz5j.execute-api.eu-central-1.amazonaws.com/dev/shoppingCart/${userId}`,
     requestInfo
   );
   // const res = await axios.get(
